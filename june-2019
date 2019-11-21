@@ -1,4 +1,0 @@
-mv target/*.war target/myapp.war
-scp -i /var/lib/jenkins/junebatch.pem -o StrictHostKeyChecking=no /var/lib/jenkins/workspace/Sample-app/target/*.war ec2-user@204.236.241.139:/opt/apache-tomcat-8.5.41/webapps
-ssh -i /var/lib/jenkins/junebatch.pem -o StrictHostKeyChecking=no ec2-user@204.236.241.139 sh /opt/apache-tomcat-8.5.41/bin/shutdown.sh 
-ssh -i /var/lib/jenkins/junebatch.pem -o StrictHostKeyChecking=no ec2-user@204.236.241.139 sh /opt/apache-tomcat-8.5.41/bin/startup.sh
