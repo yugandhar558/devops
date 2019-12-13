@@ -1,3 +1,3 @@
 dummy
-dummy 1
 vsahj
+demo message
